@@ -10,12 +10,16 @@
     font-style: normal;
     font-weight: normal;
 }
+body{
+    font-family: "Proxima Nova Regular";
+}
 .header{
     background: url("../img/01.jpg") no-repeat;
     background-size: cover;
+    
 }
-body{
-    font-family: "ProximaNova Regular";
+.header .search{
+    border-left: 1px solid #FFBC3A;
 }
 .header h2, .header span, span{
     color: #FFBC3A;
@@ -39,11 +43,12 @@ body{
 .uk-navbar-right a{
     color: #FFBC3A;
 }
-.mainContent{
+.wrapper{
     background-image: url(../img/png/bg_pattern.png);
 }
-#first_scroll, #second_scroll, #third_scroll{
-    border: 1px solid #FFBC3A;
+#first_scroll, #second_scroll, .wrapper-scroll{
+    border: 2px solid #FFBC3A;
+    background-color: white;
 }
 .uk-panel-scrollable{
     resize: none!important;
@@ -57,16 +62,41 @@ body{
     height: 50px;
     padding: 2px;
 }
+#footer_scroll button{
+    color: black;
+    box-shadow: 10px 9px 5px -6px #2C2C2C;
+}
 #label{
+    width: 70px;
+    height: 35px;
+    box-shadow: 10px 9px 5px -6px #2C2C2C;
+    padding: 10px 35px 10px 35px;
+}
+#labelNews, #labelTours{
+    padding: 10px 35px 4px 35px;
+    box-shadow: 10px 9px 5px -6px #2C2C2C;
+}
+#labelReload{
+    padding: 10px 45px 5px 35px;
+    box-shadow: 10px 9px 5px -6px #2C2C2C;
+}
+#scroll_label, #label, #labelNews, #labelReload, #labelTours{
     background-color: #FFBC3A;
     color: #2C2C2C!important;
+}
+#second_scroll span{
+    color: black;
+}
+#second_scroll #label, #first_scroll #label {
+    box-shadow: none;
+    border-radius: 2px;
 }
 .uk-overlay p{
     color: #f6f6f6;
 }
 .footer-scroll{
-    background-color: black;
-    height: 50px;
+    background-color: #2C2C2C;
+    height: 27px;
 }
 .footer-scroll button{
     background-color: #FFBC3A;
@@ -74,7 +104,7 @@ body{
 }
 .footer{
     background: #2C2C2C;
-    height: 150px;
+    height: 230px;
 }
 .footer h1{
     color: #FFBC3A;
