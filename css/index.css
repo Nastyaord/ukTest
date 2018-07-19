@@ -1,0 +1,94 @@
+@font-face {
+    font-family: "Adelle Cyrillic";
+    src: url("../fonts/Adelle Cyrillic Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Proxima Nova Regular";
+    src: url("../fonts/Proxima Nova Regular.otf") format("opentype");
+    font-style: normal;
+    font-weight: normal;
+}
+body{
+    font-family: "Proxima Nova Regular"!important;
+}
+.header h2, .header span{
+    color: #FFBC3A;
+}
+.uk-navbar-container:not(.uk-navbar-transparent){
+    background: none!important;
+}
+#search{
+    background: none!important;
+    border: 1px solid #FFBC3A;
+}
+.goods_cards img{
+    border: 1px solid black;
+    height: 60px;
+    width: 180px;
+}
+span{
+    color: #FFBC3A!important;
+}
+.black{
+    background-color: black;
+    color: #FFBC3A;
+}
+.uk-navbar-right a{
+    color: #FFBC3A;
+}
+.mainContent{
+    background-image: url(../img/png/bg_pattern.png);
+    margin-top: 30px;
+    padding: 0 40px 0 40px;
+}
+.news, .reload, .guide{
+    width: 100%;
+    height: 200px;
+    font-family: "Proxima Nova Regular"
+}
+.second_line{
+    padding-right: 30px;
+}
+#first_scroll, #second_scroll, #third_scroll{
+    border: 2px solid #FFBC3A;
+}
+.uk-panel-scrollable{
+    resize: none!important;
+    padding: 0!important;
+}
+.uk-table{
+    margin: 0px!important;
+}
+.uk-card-body {
+    padding: 0 !important;
+}
+.uk-card-default{
+    background: none !important;
+    box-shadow: none!important;
+}
+.discussing_scroll span{
+    height: 20px;
+}
+.table_with_goods img{
+    border: 1px solid #2C2C2C;
+    height: 50px;
+    padding: 2px;
+}
+#label{
+    background-color: #FFBC3A;
+    color: #2C2C2C!important;
+}
+.uk-overlay p{
+    color: #f6f6f6;
+}
+.footer{
+    background: #2C2C2C;
+    height: 150px;
+    margin-top: 30px;
+}
+.footer h1{
+    color: #FFBC3A;
+}
+
