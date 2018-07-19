@@ -10,6 +10,10 @@
     font-style: normal;
     font-weight: normal;
 }
+.header{
+    background: url("../img/01.jpg") no-repeat;
+    background-size: cover;
+}
 body{
     font-family: "ProximaNova Regular";
 }
