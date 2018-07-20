@@ -16,7 +16,7 @@ body{
 .header{
     background: url("../img/01.jpg") no-repeat;
     background-size: cover;
-    
+
 }
 .header .search{
     border-left: 1px solid #FFBC3A;
